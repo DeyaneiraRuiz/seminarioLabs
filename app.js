@@ -25,7 +25,7 @@ class Pokemon {
       const img = document.createElement('img');
       img.src = pokemon.imageUrl;
       img.alt = pokemon.name;
-      img.style.width = '100px';
+      img.style.width = '90px';
   
       const name = document.createElement('span');
       name.textContent = pokemon.getDisplayName();
