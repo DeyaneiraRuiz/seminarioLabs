@@ -30,3 +30,22 @@ body {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   }
   
+#pokemon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+}
+
+#pokemon-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
